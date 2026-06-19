@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>Таблицы</title>
+</head>
+
+<body style="background-color:azure;">
+
+<h1 style="text-align: center;">Таблицы</h1>
+
+
+<h3>Простая таблица</h3>
+<p>Заголовок таблицы</p>
+
+<table border="1">
+    <tr style="background-color: yellow;">
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+    </tr>
+    <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+        <td>Ячейка 4</td>
+    </tr>
+</table>
+
+<hr align="left" style="border: 2px solid blue; width: 60%;">
+
+
+<h3>В таблице много заголовков</h3>
+<p>Заголовок таблицы</p>
+
+<table border="1">
+    <tr>
+        <th></th>
+        <th style="background-color: yellow;">Заголовок 1</th>
+        <th style="background-color: yellow;">Заголовок 2</th>
+    </tr>
+    <tr>
+        <th style="background-color: yellow;">Заголовок 3</th>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <th style="background-color: yellow;">Заголовок 4</th>
+        <td>Ячейка 3</td>
+        <td>Ячейка 4</td>
+    </tr>
+</table>
+
+<hr align="left" style="border: 2px solid blue; width: 60%;">
+
+
+<h3>Форматирование ячеек-заголовков</h3>
+<p>Заголовок таблицы</p>
+
+<table border="1">
+    <tr style="background-color: yellow;">
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+    </tr>
+    <tr>
+        <td>Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+        <td>Ячейка 4</td>
+    </tr>
+</table>
+
+<hr align="left" style="border: 2px solid blue; width: 60%;">
+
+
+<h3>Объединение ячеек</h3>
+
+<table border="1">
+    <tr style="background-color: yellow;">
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+    </tr>
+    <tr>
+        <td rowspan="3" style="background-color: lightgreen;">Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+    </tr>
+    <tr>
+        <td>Ячейка 4</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: cyan;">Ячейка 5</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+<table border="1">
+    <tr style="background-color: yellow;">
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+        <th>Заголовок 3</th>
+    </tr>
+    <tr>
+        <td rowspan="3" colspan="2" style="background-color: lightgreen;">Ячейка 1</td>
+        <td>Ячейка 2</td>
+    </tr>
+    <tr>
+        <td>Ячейка 3</td>
+    </tr>
+    <tr>
+        <td>Ячейка 4</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="background-color: cyan;">Ячейка 5</td>
+    </tr>
+</table>
+
+<hr align="left" style="border: 2px solid blue; width: 60%;">
+
+
+<h3>Вложенная таблица</h3>
+
+<table border="1" style="background-color: yellow;">
+    <tr>
+        <td>Таблица1</td>
+        <td>
+            <table border="1">
+                <tr style="background-color: red;">
+                    <td>Таблица2</td>
+                    <td>Ячейка 2-2</td>
+                </tr>
+                <tr style="background-color: red;">
+                    <td>Ячейка 3-2</td>
+                    <td>Ячейка 4-2</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>Ячейка 3-1</td>
+        <td>Ячейка 4-1</td>
+    </tr>
+</table>
+
+</body>
+</html>
